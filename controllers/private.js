@@ -1,6 +1,5 @@
 const User = require('../models/User');
 const ErrorResponse = require('../utils/errorResponse');
-const {generatePassword} = require('../library/password_utils');
 
 const getPrivateData = (req, res, next) => {
     res.status(200).json({
